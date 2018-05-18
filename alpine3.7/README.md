@@ -6,14 +6,14 @@
 
 Build is for developing and testing what will be run in a container.
 
-* v3.7 `vagrant init maier/alpine-3.7-x86_64`
+* v3.7 `vagrant init chriswayg/alpine-3.7-x86_64`
 
 ## Usage notes
 
 * `bash` is installed by default so `config.ssh.shell="/bin/sh"` is not necessary.
 * Vagrant plugin `vagrant-alpine` developed to support Alpine specific guest.
    * `vagrant plugin install vagrant-alpine`.
-   * [Github repository](https://github.com/maier/vagrant-alpine/).
+   * [Github repository](https://github.com/chriswayg/vagrant-alpine/).
    * Removed creation of fake `shutdown` command.
    * Remove installation of `nfs-utils`.
    * Remove starting `rpc.statd`.
