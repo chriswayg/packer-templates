@@ -1,5 +1,5 @@
 {
-  "description": "Build base Alpine Linux x86_64",
+  "description": "Build Alpine Linux x86_64 with Python",
   "push": {
     "name": "chriswayg/alpine37",
     "vcs": true
