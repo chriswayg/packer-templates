@@ -2,12 +2,13 @@
 
 * x86_64
 * Standard install
+* Python 2 and 3 added, for use with Ansible.
 * Includes VBoxGuestAdditions
-* [Packer template](https://github.com/maier/packer-templates/alpine3.7)
+* [Packer template](https://github.com/chriswayg/packer-templates/alpine3.7)
 
 ## Use
 
-#### Install the [vagrant-alpine](https://github.com/maier/vagrant-alpine) guest plugin.
+#### Install the [vagrant-alpine](https://github.com/chriswayg/vagrant-alpine) guest plugin.
 
 ```
 vagrant plugin install vagrant-alpine
@@ -16,12 +17,12 @@ vagrant plugin install vagrant-alpine
 #### Create a `Vagrantfile`:
 
 ```
-vagrant init maier/alpine-3.7-x86_64 --box-version 3.7.0
+vagrant init chriswayg/alpine-3.7-x86_64 --box-version 3.7.0
 ```
 
 or
 
-Make a copy of the example [Vagrantfile](https://github.com/maier/packer-templates/blob/master/alpine3.7/Vagrantfile) supplied with this repository.
+Make a copy of the example [Vagrantfile](https://github.com/chriswayg/packer-templates/blob/master/alpine3.7/Vagrantfile) supplied with this repository.
 
 #### Edit the Vagrantfile to customize for your needs.
 
@@ -35,3 +36,4 @@ vagrant up
 
 * v3.7.0
    * Initial -- Alpine v3.7.0
+   * Added Python
