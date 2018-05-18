@@ -1,7 +1,7 @@
 {
   "description": "Build base Alpine Linux x86_64",
   "push": {
-    "name": "maier/alpine37",
+    "name": "chriswayg/alpine37",
     "vcs": true
   },
   "variables": {
@@ -23,6 +23,7 @@
         "scripts/02sshd.sh",
         "scripts/03vagrant.sh",
         "scripts/04sudoers.sh",
+        "scripts/80python.sh",
         "scripts/90virtualbox.sh",
         "scripts/99minimize.sh"
       ],
