@@ -24,6 +24,10 @@ Note, this is a **local** build and will *intentionally* fail on the *post-proce
 
 ```
 ../build.sh local
+vagrant box add alpine-3.7-local output.box
+mkdir test && cd test
+vagrant init alpine-3.7-local
+vagrant up
 ```
 
 > Note, to debug the VM boot process change *headless* to *false* in the template. Optionally, `export PACKER_LOG=1` to see output from Packer.
