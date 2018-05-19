@@ -4,9 +4,11 @@
 
 ### Current boxes
 
-* [Alpine Linux:](http://alpinelinux.org/)
+- [Alpine Linux:](http://alpinelinux.org/)
 	- [chriswayg/alpine-3.7-x86_64](https://app.vagrantup.com/chriswayg/boxes/alpine-3.7-x86_64)
-* Various distributions by maier:
+- Debian:
+	- [chriswayg/debian-9.4.0-x86_64](https://app.vagrantup.com/chriswayg/boxes/debian-9.4.0-x86_64)
+- Various distributions by maier:
   - [maier - development vagrant boxes](https://app.vagrantup.com/maier)
 
 ## Use existing template
