@@ -18,7 +18,7 @@ vagrant plugin install vagrant-alpine
 #### 2. Create a `Vagrantfile`:
 
 ```
-vagrant init chriswayg/alpine-3.7-x86_64 --box-version 3.7.0
+vagrant init chriswayg/alpine-3.7-x86_64 --box-version 3.7.0-1
 ```
 
 ##### or make a copy of the example [Vagrantfile](https://github.com/chriswayg/packer-templates/blob/master/alpine3.7/Vagrantfile) in this repository.
@@ -31,17 +31,17 @@ Edit the Vagrantfile to customize for your needs.
 vagrant up
 ```
 
-## Usage notes
+### Usage notes
 
 * `bash` is installed by default so `config.ssh.shell="/bin/sh"` is not necessary.
 * The Vagrant plugin `vagrant-alpine`, developed to support Alpine specific guests, enables hostname, network settings and other features.
 
-## Build environment
+#### Build environment
 
 ```shell
 packer version && vagrant -v && vboxmanage --version
 
-		Packer v1.2.3
-		Vagrant 2.0.4
-		5.2.10r122088
+	Packer v1.2.3
+	Vagrant 2.0.4
+	5.2.12r122591
 ```
