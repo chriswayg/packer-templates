@@ -1,17 +1,15 @@
 ## [Alpine Linux](http://alpinelinux.org) v3.7
 
-* Minimal linux distro x86_64
-* Standard install from ISO
-* Python 2 and 3 added, for use with Ansible.
-* Includes Virtualbox Guest Additions
-* [Packer template](https://github.com/chriswayg/packer-templates/alpine3.7)
-* good for developing for Alpine based Docker containers e.g. [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine)
+Minimal linux distro, good for developing and testing Alpine based Docker containers
 
-Build is for developing and testing what will be run in a container.
+* Standard install based on alpine-virt x86_64 ISO
+* Includes Virtualbox Guest Additions
+* Python 2 and 3 added, for use with Ansible.
+* [Alpine Packer template](https://github.com/chriswayg/packer-templates/alpine-3.7-x86_64.json)
 
 ## Use
 
-#### 1. Install the [vagrant-alpine](https://github.com/chriswayg/vagrant-alpine) guest plugin.
+#### 1. Install the [vagrant-alpine](https://github.com/maier/vagrant-alpine) guest plugin.
 
 ```
 vagrant plugin install vagrant-alpine
