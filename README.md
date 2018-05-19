@@ -38,14 +38,14 @@ vagrant up
 ../build.sh vagrantcloud
 ```
 
-### Environment
+#### Build environment
 
 ```shell
 packer version && vagrant -v && vboxmanage --version
 
-		Packer v1.2.3
-		Vagrant 2.0.4
-		5.2.10r122088
+	Packer v1.2.3
+	Vagrant 2.0.4
+	5.2.12r122591
 ```
 [Packer](https://packer.io) templates, mainly for use building boxes for [Vagrant Cloud](https://vagrantcloud.com/maier/).
 
