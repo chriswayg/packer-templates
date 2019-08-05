@@ -52,8 +52,6 @@ vagrant up
 > Note, to debug the VM boot process change *headless* to *false* in the template. Optionally, `export PACKER_LOG=1` to see output from Packer.
 
 #### Deploy the Vagrant Box to Vagrant Cloud
-=======
-#### Deploy the Vagrant Box to Vagrant Cloud
 
 ```
 ../build.sh vagrantcloud
@@ -69,6 +67,10 @@ packer version && vagrant -v && vboxmanage --version
 	Vagrant 2.0.4
 	5.2.12r122591
 ```
+---
+
+## Original Readme
+
 [Packer](https://packer.io) templates, mainly for use building boxes for [Vagrant Cloud](https://vagrantcloud.com/maier/).
 
 ### Environment
