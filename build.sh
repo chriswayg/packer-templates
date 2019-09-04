@@ -66,7 +66,7 @@ export VC_BOX_TAG="${VAGRANTCLOUD_USER}/${BOX_NAME}"
 export VC_BOX_VER=$BOX_VERSION
 export VC_BOX_REL=$BOX_RELEASE
 
-$PACKER build $template_name
+PACKER_LOG=1 $PACKER build $template_name
 
 unset VC_TOKEN
 unset VC_BOX_VER
